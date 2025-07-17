@@ -1,5 +1,20 @@
 [
   {
+    "id": "geist-pinch-zoom",
+    "name": "Geist Pinch Zoom",
+    "description": "A pinch zoom component for Vue",
+    "category": "UI Framework",
+    "packageName": "geist-pinch-zoom",
+    "githubUrl": "https://github.com/dbzx10299/geist-pinch-zoom",
+    "npmUrl": "https://www.npmjs.com/package/geist-pinch-zoom",
+    "documentationUrl": "https://geist-pinch-zoom.netlify.app/getting-started",
+    "author": "David Bender and GeistJS",
+    "tags": [
+      "pinchzoom"
+    ],
+    "type": "community"
+  },
+  {
     "id": "vue-vaul",
     "name": "Vue Vaul",
     "description": "A Vue drawer component ported from Vaul.",
