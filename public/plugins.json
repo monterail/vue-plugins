@@ -1,5 +1,22 @@
 [
   {
+    "id": "vue-vaul",
+    "name": "Vue Vaul",
+    "description": "A Vue drawer component ported from Vaul.",
+    "category": "UI Framework",
+    "packageName": "vue-vaul",
+    "githubUrl": "https://github.com/dbzx10299/vue-vaul",
+    "npmUrl": "https://www.npmjs.com/package/vue-vaul",
+    "documentationUrl": "https://vue-vaul.netlify.app/getting-started",
+    "author": "David Bender and GeistJS",
+    "tags": [
+      "drawer",
+      "dialog",
+      "modal"
+    ],
+    "type": "community"
+  },
+  {
     "id": "pinia",
     "name": "Pinia",
     "description": "Official state management library for Vue, modular, TypeScript‑friendly and replaces Vuex.",
