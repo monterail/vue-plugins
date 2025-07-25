@@ -1698,5 +1698,22 @@
       "Internationalization"
      ],
     "type": "community"
+  },
+  {
+    "id": "vue-router-plugin-system",
+    "name": "vue-router-plugin-system",
+    "description": "A lightweight solution providing standardized plugin system for Vue Router.",
+    "category": "Routing",
+    "packageName": "vue-router-plugin-system",
+    "githubUrl": "https://github.com/vue-spark/vue-router-plugin-system",
+    "npmUrl": "https://www.npmjs.com/package/vue-router-plugin-system",
+    "documentationUrl": "https://github.com/vue-spark/vue-router-plugin-system",
+    "author": "leihaohao",
+    "tags": [
+      "vue",
+      "vue-router",
+      "plugin-system"
+     ],
+    "type": "community"
   }
 ]
