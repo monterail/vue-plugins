@@ -1009,6 +1009,26 @@
     "type": "community"
   },
   {
+    "id": "vue-modern-cropper",
+    "name": "Vue Modern Cropper",
+    "description": "A Vue DX wrapper for cropperjs v2 (image cropper)",
+    "category": "UI Framework",
+    "packageName": "vue-modern-cropper",
+    "githubUrl": "https://github.com/NamesMT/vue-modern-cropper",
+    "npmUrl": "https://www.npmjs.com/package/vue-modern-cropper",
+    "documentationUrl": "https://vue-modern-cropper.isthe.top",
+    "author": "NamesMT,fengyuanchen",
+    "tags": [
+      "image",
+      "crop",
+      "photo-editing",
+      "cropperjs",
+      "vue3",
+      "community"
+    ],
+    "type": "community"
+  },
+  {
     "id": "vue-signature-pad",
     "name": "Vue Signature Pad",
     "description": "Signature pad component for Vue 3 with touch and mouse support.",
