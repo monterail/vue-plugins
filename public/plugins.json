@@ -1718,5 +1718,23 @@
       "i18n"
      ],
     "type": "community"
+  },
+  {
+    "id": "vite-plugin-vue-style-bundler",
+    "name": "vite-plugin-vue-style-bundler",
+    "description": "automatically extract the css styles in Vue components and bundle them into the js source code",
+    "category": "Development Tools",
+    "packageName": "vite-plugin-vue-style-bundler",
+    "githubUrl": "https://github.com/zhangfisher/vite-plugin-vue-style-bundler",
+    "npmUrl": "https://www.npmjs.com/package/vite-plugin-vue-style-bundler",
+    "documentationUrl": "https://github.com/zhangfisher/vite-plugin-vue-style-bundler?tab=readme-ov-file",
+    "author": "zhangfisher",
+    "tags": [
+      "devtools",
+      "style",
+      "vite-plugin",
+      "development" 
+    ],
+    "type": "community"
   }
 ]
