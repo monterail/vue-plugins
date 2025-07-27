@@ -1698,5 +1698,28 @@
       "Internationalization"
      ],
     "type": "community"
+  },
+  {
+    "id": "vue-router-better-view",
+    "name": "vue-router-better-view",
+    "description": "An extension for Vue Router's RouterView with enhanced features.",
+    "category": "Routing",
+    "packageName": "vue-router-better-view",
+    "githubUrl": "https://github.com/vue-spark/vue-router-better-view",
+    "npmUrl": "https://www.npmjs.com/package/vue-router-better-view",
+    "documentationUrl": "https://github.com/vue-spark/vue-router-better-view",
+    "author": "leihaohao",
+    "tags": [
+      "vue",
+      "vue-router",
+      "keepalive",
+      "cache",
+      "uniapp",
+      "h5",
+      "web",
+      "webview",
+      "admin"
+     ],
+    "type": "community"
   }
 ]
