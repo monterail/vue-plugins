@@ -1718,5 +1718,18 @@
       "i18n"
      ],
     "type": "community"
+  },
+  {
+    "id": "vite-plugin-version-mark",
+    "name": "Vite Plugin Version Mark",
+    "description": "Automatically use `package version` or `git commit` or `custom` to be inserted into your project as a unique identifier for the project version.",
+    "category": "Utilities",
+    "packageName": "vite-plugin-version-mark",
+    "githubUrl": "https://github.com/ZhongxuYang/vite-plugin-version-mark",
+    "npmUrl": "https://www.npmjs.com/package/vite-plugin-version-mark",
+    "documentationUrl": "https://github.com/ZhongxuYang/vite-plugin-version-mark",
+    "author": "Zhongxu Yang",
+    "tags": ["vite", "version", "vue", "nuxt", "react", "git", "commit", "log", "plugin", "vite-plugin"],
+    "type": "community"
   }
 ]
