@@ -1718,5 +1718,23 @@
       "i18n"
      ],
     "type": "community"
+  },
+  {
+    "id": "vite-plugin-bundle-obfuscator",
+    "name": "Vite Plugin Bundle Obfuscator",
+    "description": "JavaScript obfuscator plugin provides customizable options and multi-threaded support for Vite.",
+    "category": "Utilities",
+    "packageName": "vite-plugin-bundle-obfuscator",
+    "githubUrl": "https://github.com/z0ffy/vite-plugin-bundle-obfuscator",
+    "npmUrl": "https://www.npmjs.com/package/vite-plugin-bundle-obfuscator",
+    "documentationUrl": "https://github.com/z0ffy/vite-plugin-bundle-obfuscator#readme",
+    "author": "z0ffy",
+    "tags": [
+      "javascript-obfuscator",
+      "vite-javascript-obfuscator",
+      "obfuscator",
+      "nuxt"
+     ],
+    "type": "community"
   }
 ]
