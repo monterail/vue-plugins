@@ -1718,5 +1718,27 @@
       "i18n"
      ],
     "type": "community"
+  },
+  {
+    "id": "gltf-type-toolkit",
+    "name": "gltf-type-toolkit",
+    "description": "This plugin generates type-safe glTF file representations in TypeScript and optimizes the loading and bundling of models in web projects.",
+    "category": "Utilities",
+    "packageName": "@todde.tv/gltf-type-toolkit",
+    "githubUrl": "https://github.com/toddeTV/gltf-type-toolkit",
+    "npmUrl": "https://www.npmjs.com/package/@todde.tv/gltf-type-toolkit",
+    "documentationUrl": null,
+    "author": "Thorsten Seyschab",
+    "tags": [
+      "typescript",
+      "web",
+      "generator",
+      "three-js",
+      "threejs",
+      "gltf",
+      "gltf2",
+      "unplugin"
+     ],
+    "type": "community"
   }
 ]
