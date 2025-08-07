@@ -27,7 +27,19 @@
           </span>
           <div class="flex items-center text-slate-600 dark:text-slate-300">
             <Icon name="lucide:user" class="h-4 w-4 mr-1" />
-            {{ plugin.author }}
+            <template v-for="(author, index) in authors" :key="typeof author === 'string' ? author : author.name">
+              <template v-if="typeof author === 'string'">
+                {{ author }}
+              </template>
+              <a
+                v-else
+                target="_blank"
+                class="text-[#4fc08d] hover:text-[#42b883] transition-colors"
+                :href="author.github_url"
+              >{{ author.name }}
+                <Icon name="lucide:external-link" class="h-4 w-4" /></a>
+              <span v-if="index < authors.length - 1" class="mr-1">, </span>
+            </template>
           </div>
           <div class="flex items-center text-slate-600 dark:text-slate-300">
             <Icon name="lucide:calendar" class="h-4 w-4 mr-1" />
@@ -50,13 +62,32 @@
 </template>
 
 <script setup lang="ts">
-import type { PluginWithStats } from '~/types'
+import type { Author, PluginWithStats } from '~/types'
 
 interface Props {
   plugin: PluginWithStats
 }
 
-defineProps<Props>()
+const props = defineProps<Props>()
+
+const {plugin} = toRefs(props)
+
+const authors = computed<Author[]>(() => {
+  // must be an array
+  const authorsArray = Array.isArray(plugin.value.author)
+    ? plugin.value.author
+    : [plugin.value.author]
+
+  // Guard: The `github_url` must have a GitHub URL Prefix. If not, handle the `name` as a string and ignore the URL.
+  const githubUrlRegex = /^https:\/\/(www\.)?github\.com\//
+  return authorsArray.map((author) => {
+    if (typeof author === 'string')
+      return author
+    if (author.github_url && githubUrlRegex.test(author.github_url))
+      return author
+    return author.name
+  })
+})
 
 const formatDate = (dateString: string) => {
   return new Date(dateString).toLocaleDateString('en-US', {

@@ -19,9 +19,16 @@ export interface VuePlugin {
   githubUrl: string
   npmUrl?: string
   documentationUrl?: string
-  author: string
+  author: Author | Author[]
   tags: string[]
   type: "official" | "community"
+}
+
+export type Author = string | AuthorObj
+
+export interface AuthorObj {
+  name: string
+  github_url: string
 }
 
 export interface VuePluginWithStars extends VuePlugin {
