@@ -1731,5 +1731,23 @@
     "author": "siaikin",
     "tags": ["vue3", "typescript", "community", "print", "printer"],
     "type": "community"
+  },
+  {
+    "id": "vue-markdown",
+    "name": "Vue Markdown",
+    "description": "Provide Vue 3+ component to render markdown content with unified pipeline",
+    "category": "UI Framework",
+    "packageName": "@crazydos/vue-markdown",
+    "githubUrl": "https://github.com/shunnNet/vue-markdown",
+    "npmUrl": "https://www.npmjs.com/package/@crazydos/vue-markdown",
+    "documentationUrl": "https://github.com/shunnNet/vue-markdown",
+    "author": "shunnNet",
+    "tags": [
+      "vue3",
+      "markdown",
+      "unified",
+      "preview"
+     ],
+    "type": "community"
   }
 ]
