@@ -24,7 +24,7 @@
     "markdown-it": "^14.1.0",
     "markdown-it-emoji": "^3.0.0",
     "markdown-it-highlightjs": "^4.2.0",
-    "nuxt": "^3.17.5",
+    "nuxt": "^3.19.0",
     "nuxt-icon": "^0.6.6",
     "ofetch": "^1.3.3",
     "reka-ui": "2.3.1",
