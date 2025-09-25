@@ -1797,5 +1797,25 @@
       "jsoneditor"
      ],
     "type": "community"
+  },
+  {
+    "id": "vue3-dnd",
+    "name": "Vue3 DnD",
+    "description": "Drag and Drop for Vue Composition API. Supports Vue2 and Vue3",
+    "category": "Utilities",
+    "packageName": "vue3-dnd",
+    "githubUrl": "https://github.com/hcg1023/vue3-dnd",
+    "npmUrl": "https://www.npmjs.com/package/vue3-dnd",
+    "documentationUrl": "https://www.vue3-dnd.com",
+    "author": "hcg1023",
+    "tags": [
+      "drag-drop",
+      "drag-and-drop",
+      "dnd",
+      "vue3",
+      "vue2",
+      "community"
+    ],
+    "type": "community"
   }
 ]
