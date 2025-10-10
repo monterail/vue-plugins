@@ -1,4 +1,5 @@
 import type { GitHubRepo } from '~/types'
+import { FetchError } from 'ofetch'
 
 export function extractRepoPath(githubUrl: string): string {
   // Handle various GitHub URL formats
@@ -20,6 +21,20 @@ export function buildGitHubApiUrl(repoPath: string, endpoint: string): string {
 
 export function buildRawGitHubUrl(repoPath: string, branch = "main", filePath: string): string {
   return `https://raw.githubusercontent.com/${repoPath}/${branch}/${filePath}`
+}
+
+export function decodeBase64(base64: string): string {
+  if(typeof Buffer === "function") {
+    return Buffer.from(base64, "base64").toString("utf-8")
+  }
+  
+  // fallback to atom
+  if(typeof atob === "function") {
+    const bytes = Uint8Array.from(atob(base64), c => c.charCodeAt(0))
+    return new TextDecoder('utf-8').decode(bytes)
+  }
+
+  throw new Error("No base64 decoder found")
 }
 
 /**
@@ -167,7 +182,7 @@ export async function fetchGitHubReadme(githubUrl: string): Promise<string> {
         )
 
         if (response.content && response.encoding === "base64") {
-          let content = Buffer.from(response.content, "base64").toString("utf-8")
+          let content = decodeBase64(response.content)
 
           // Fix relative URLs in the README to point to the correct GitHub URLs
           content = content.replace(
@@ -182,9 +197,14 @@ export async function fetchGitHubReadme(githubUrl: string): Promise<string> {
 
           return content
         }
-      } catch {
+      } catch (error) {
         // Continue to next filename if this one fails
-        continue
+        if(error instanceof FetchError) {
+          continue
+        }
+        
+        // Rethrow other kinds of unexpected errors
+        throw error
       }
     }
 
