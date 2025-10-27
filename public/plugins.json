@@ -1835,5 +1835,23 @@
       "vue2"
     ],
     "type": "community"
-  }
+  },
+  {
+    "id": "formisch",
+    "name": "Formisch",
+    "description": "A form library for Vue.js with focus on performance, type safety and bundle size.",
+    "category": "Forms",
+    "packageName": "@formisch/vue",
+    "githubUrl": "https://github.com/fabian-hiller/formisch",
+    "npmUrl": "https://www.npmjs.com/package/@formisch/vue",
+    "documentationUrl": "https://formisch.dev/vue/guides/introduction/",
+    "author": "Fabian Hiller",
+    "tags": [
+      "forms",
+      "validation",
+      "valibot",
+      "schema",
+    ],
+    "type": "community"
+  },
 ]
