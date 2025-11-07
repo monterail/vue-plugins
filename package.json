@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.54",
-    "@nuxt/devtools": "^1.0.0",
+    "@nuxt/devtools": "^2.6.4",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/tailwindcss": "^6.8.4",
     "@tailwindcss/typography": "^0.5.10",
