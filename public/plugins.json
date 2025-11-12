@@ -1835,5 +1835,18 @@
       "vue2"
     ],
     "type": "community"
+  },
+  {
+    "id": "use-vue-service",
+    "name": "Use Vue Service",
+    "description": "Lightweight Vue 3 state management with dependency injection, inspired by Angular services.",
+    "category": "State Management",
+    "packageName": "@kaokei/use-vue-service",
+    "githubUrl": "https://github.com/kaokei/use-vue-service",
+    "npmUrl": "https://www.npmjs.com/package/@kaokei/use-vue-service",
+    "documentationUrl": "https://use-vue-service.kaokei.com/",
+    "author": "kaokei",
+    "tags": ["vue3", "state", "state-management", "ioc", "di", "typescript", "community"],
+    "type": "community"
   }
 ]
