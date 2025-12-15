@@ -1848,5 +1848,22 @@
     "author": "kaokei",
     "tags": ["vue3", "state", "state-management", "ioc", "di", "typescript", "community"],
     "type": "community"
+  },
+   {
+    "id": "vbox",
+    "name": "VBox",
+    "description": "A plugin that exposes a polymorphic Vue.js component with a lightweight styling engine.",
+    "category": "UI Framework",
+    "packageName": "@veebox/vue",
+    "githubUrl": "https://github.com/timothyokooboh/vbox",
+    "npmUrl": "https://www.npmjs.com/package/@veebox/vue",
+    "documentationUrl": "https://veebox.xyz/",
+    "author": "Timothy Okooboh",
+    "tags": [
+      "vue3",
+      "styling",
+      "polymorhic-components"
+    ],
+    "type": "community"
   }
 ]
