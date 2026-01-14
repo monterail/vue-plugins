@@ -407,6 +407,30 @@
     "type": "community"
   },
   {
+    "id": "shadcn-vue",
+    "name": "Shadcn Vue",
+    "description": "shadcn/ui is a set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks and AI models. Open Source. Open Code.",
+    "category": "UI Framework",
+    "packageName": "shadcn-vue",
+    "githubUrl": "https://github.com/unovue/shadcn-vue",
+    "npmUrl": "https://www.npmjs.com/package/shadcn-vue",
+    "documentationUrl": "https://www.shadcn-vue.com/docs/installation",
+    "author": "unovue",
+    "tags": [
+      "vue",
+      "accessible",
+      "ui-kit",
+      "component-library",
+      "ui-library",
+      "shadcn-ui",
+      "shadcn",
+      "vue-ui-kit",
+      "radix-vue",
+      "reka-ui"
+    ],
+    "type": "community"
+  },
+  {
     "id": "unplugin-auto-import",
     "name": "unplugin-auto-import",
     "description": "Auto-import Vue APIs on-demand for Vite, Webpack and Rollup.",
