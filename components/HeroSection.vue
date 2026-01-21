@@ -32,6 +32,21 @@
       Discover and explore the best Vue.js plugins to supercharge your applications. 
       Curated by the community, maintained by developers.
     </p>
+    <div class="relative mt-8 z-20">
+      <a 
+        href="https://github.com/monterail/vue-plugin-template" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-6 py-3 bg-[#42b883] hover:bg-[#35a372] text-white font-semibold rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
+      >
+        <Icon name="mdi:package-variant" class="w-5 h-5" />
+        <span>Create Your Own Plugin</span>
+        <Icon name="mdi:arrow-right" class="w-5 h-5" />
+      </a>
+      <p class="text-sm text-slate-500 dark:text-slate-400 mt-3">
+        Use our Vue Plugin Template to kickstart your plugin development
+      </p>
+    </div>
   </div>
 </template>
 

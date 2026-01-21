@@ -16,6 +16,18 @@ A modern, responsive web application for discovering and exploring Vue.js plugin
 - � **Markdown Rendering** - Rich documentation display with syntax highlighting
 - 🎯 **SEO Optimized** - Pre-rendered routes for better search engine visibility
 
+## Vue Plugin Template
+
+Want to create your own Vue.js plugin? Check out our [Vue Plugin Template](https://github.com/monterail/vue-plugin-template) - a modern starter template that helps you kickstart Vue plugin development with best practices, TypeScript support, and comprehensive tooling.
+
+The template includes:
+- 🏗️ Modern build setup with Vite
+- 📦 TypeScript support out of the box
+- ✅ Testing configuration with Vitest
+- 📚 Documentation setup
+- 🚀 CI/CD workflows
+- 📝 Comprehensive examples
+
 ## Getting Started
 
 ### Prerequisites
@@ -104,6 +116,10 @@ To add new plugins to the collection:
 3. Ensure all required fields are filled
 4. Test the plugin detail page works correctly
 5. Submit a pull request
+
+### Creating Your Own Plugin
+
+Interested in creating a new Vue.js plugin? Use our [Vue Plugin Template](https://github.com/monterail/vue-plugin-template) to get started with a solid foundation and best practices.
 
 ## License
 
