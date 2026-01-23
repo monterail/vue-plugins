@@ -1889,5 +1889,33 @@
       "polymorhic-components"
     ],
     "type": "community"
-  }
+  },
+  {
+  "id": "erag-vue-toastification",
+  "name": "Vue Toastification",
+  "description": "A clean, customizable toast notification plugin for Vue 3 with TypeScript support.",
+  "category": "UI & Notifications",
+  "packageName": "@erag/vue-toastification",
+  "githubUrl": "https://github.com/eramitgupta/vue-toastification",
+  "npmUrl": "https://www.npmjs.com/package/@erag/vue-toastification",
+  "documentationUrl": "https://github.com/eramitgupta/vue-toastification#readme",
+  "author": "Amit Gupta",
+  "tags": ["vue3", "toast", "notifications", "typescript", "ui"],
+  "type": "community"
+ },
+  {
+  "id": "lang-sync-inertia",
+  "name": "Lang Sync Inertia",
+  "description": "Synchronize Laravel language files with Vue components in Inertia.js applications automatically.",
+  "category": "Internationalization",
+  "packageName": "@erag/lang-sync-inertia",
+  "githubUrl": "https://github.com/eramitgupta/lang-sync-inertia",
+  "npmUrl": "https://www.npmjs.com/package/@erag/lang-sync-inertia",
+  "documentationUrl": "https://github.com/eramitgupta/lang-sync-inertia#readme",
+  "author": "Amit Gupta",
+  "tags": ["vue3", "laravel", "inertia", "i18n", "typescript"],
+  "type": "community"
+}
+
+
 ]
