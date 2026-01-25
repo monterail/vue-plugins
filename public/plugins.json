@@ -1889,5 +1889,18 @@
       "polymorhic-components"
     ],
     "type": "community"
+  },
+  {
+    "id": "vue-bezier",
+    "name": "Vue Bezier",
+    "description": "A Vue 3 component library with customizable CSS-based transition components featuring Bezier timing functions. Includes fade, dissolve, blur, scale, slide, push, wipe, rotate, zoom, and clip-path transitions.",
+    "category": "Animation",
+    "packageName": "@noction/vue-bezier",
+    "githubUrl": "https://github.com/Noction/vue-bezier",
+    "npmUrl": "https://www.npmjs.com/package/@noction/vue-bezier",
+    "documentationUrl": "https://noction.github.io/vue-bezier/",
+    "author": "50rayn",
+    "tags": ["vue3", "typescript", "community", "transitions", "animation"],
+    "type": "community"
   }
 ]
