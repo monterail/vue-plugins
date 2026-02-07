@@ -1889,5 +1889,27 @@
       "polymorhic-components"
     ],
     "type": "community"
+  },
+  {
+    "id": "toastflow",
+    "name": "Toastflow",
+    "description": "Headless toast (notification) engine + Vue 3 renderer (TS-first, CSS-first theming, highly customizable).",
+    "category": "UI Framework",
+    "packageName": "@adrianjanocko/vue-toastflow",
+    "githubUrl": "https://github.com/adrianjanocko/toastflow",
+    "npmUrl": "https://www.npmjs.com/package/vue-toastflow",
+    "documentationUrl": "https://toastflow.top/",
+    "author": "adrianjanocko",
+    "tags": [
+      "toast",
+      "notifications",
+      "headless",
+      "vue3",
+      "typescript",
+      "customizable",
+      "themeable",
+      "ui"
+    ],
+    "type": "community"
   }
 ]
