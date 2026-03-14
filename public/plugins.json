@@ -1889,5 +1889,18 @@
       "polymorhic-components"
     ],
     "type": "community"
-  }
+  },
+  {
+  "id": "responsive-image",
+  "name": "ResponsiveImage",
+  "description": "Vue.js component to render responsive images, provided as locally processed images or loaded remotely from Image CDNs",
+  "category": "UI Framework",
+  "packageName": "@responsive-image/vue",
+  "githubUrl": "https://github.com/simonihmig/responsive-image",
+  "npmUrl": "https://www.npmjs.com/package/@responsive-image/vue",
+  "documentationUrl": "https://responsive-image.dev",
+  "author": "Simon Ihmig",
+  "tags": ["image", "responsive image", "image processing", "vite", "vue3", "typescript", "community"],
+  "type": "community"
+}
 ]
