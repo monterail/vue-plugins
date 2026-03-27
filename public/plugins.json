@@ -1889,5 +1889,18 @@
       "polymorhic-components"
     ],
     "type": "community"
+  },
+  {
+    "id": "vue3-draggable-resizable",
+    "name": "Vue3 draggable resizable",
+    "description": "Draggable and resizable component for vue3",
+    "category": "UI Framework",
+    "packageName": "vue3-draggable-resizable",
+    "githubUrl": "https://github.com/a7650/vue3-draggable-resizable",
+    "npmUrl": "https://www.npmjs.com/package/vue3-draggable-resizable",
+    "documentationUrl": "https://github.com/a7650/vue3-draggable-resizable/blob/release/README.md",
+    "author": "zephyrzhang",
+    "tags": ["vue3", "typescript", "draggable", "resizable"],
+    "type": "community"
   }
 ]
