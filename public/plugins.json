@@ -1889,5 +1889,18 @@
       "polymorhic-components"
     ],
     "type": "community"
+  },
+  {
+    "id": "dirigo",
+    "name": "Dirigo",
+    "description": "Configurable Vue 3 directives: clipboard, sanitization, inputs, scroll, and more. Zero runtime dependencies.",
+    "category": "Utilities",
+    "packageName": "@woptima/dirigo",
+    "githubUrl": "https://github.com/bUxEE/dirigo",
+    "npmUrl": "https://www.npmjs.com/package/@woptima/dirigo",
+    "documentationUrl": "https://dirigo.woptima.com/docs",
+    "author": "Woptima",
+    "tags": ["vue3", "typescript", "directives","utilities"],
+    "type": "community"
   }
 ]
