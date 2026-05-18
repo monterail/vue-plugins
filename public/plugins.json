@@ -1889,5 +1889,18 @@
       "polymorhic-components"
     ],
     "type": "community"
+  },
+  {
+    "id": "vue-player",
+    "name": "Vue Player",
+    "description": "Feature-rich Vue 3 video player with HLS streaming, subtitles, chapters and thumbnail previews",
+    "category": "Utilities",
+    "packageName": "@vue-player/vue",
+    "githubUrl": "https://github.com/VladChernyak/vue-player",
+    "npmUrl": "https://www.npmjs.com/package/@vue-player/vue",
+    "documentationUrl": "https://vue-player.vercel.app",
+    "author": "Vlad Chernyak",
+    "tags": ["video", "player", "hls", "subtitles", "chapters", "thumbnails", "typescript"],
+    "type": "community"
   }
 ]
