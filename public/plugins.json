@@ -1793,6 +1793,28 @@
     "type": "community"
   },
   {
+    "id": "markstream-vue",
+    "name": "Markstream",
+    "description": "Streaming Markdown renderer for Vue 3, Nuxt and VitePress AI chat UIs, with support for incomplete Markdown, Mermaid, KaTeX, and streaming code blocks.",
+    "category": "UI Framework",
+    "packageName": "markstream-vue",
+    "githubUrl": "https://github.com/Simon-He95/markstream-vue",
+    "npmUrl": "https://www.npmjs.com/package/markstream-vue",
+    "documentationUrl": "https://markstream.simonhe.me/",
+    "author": "Simon He (Simon-He95)",
+    "tags": [
+      "markdown",
+      "streaming",
+      "ai",
+      "chat",
+      "vue3",
+      "nuxt",
+      "mermaid",
+      "katex"
+    ],
+    "type": "community"
+  },
+  {
     "id": "vue-log-arsenal",
     "name": "Vue Log Arsenal",
     "description": "Vue 3 plugin with logging directives (`v-log`, `v-log-change`, `v-log-click`) to log the state or value of properties for faster debugging.",
