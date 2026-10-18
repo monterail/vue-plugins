@@ -1889,5 +1889,29 @@
       "polymorhic-components"
     ],
     "type": "community"
+  },
+  {
+    "id": "vue-neshan-maps",
+    "name": "Vue Neshan Maps",
+    "description": "Typed Vue 3 components for Leaflet and MapLibre maps with Neshan traffic and points of interest, plus clustering and heatmaps.",
+    "category": "Utilities",
+    "packageName": "vue-neshan-maps",
+    "githubUrl": "https://github.com/sajadjanat/vue-neshan-maps",
+    "npmUrl": "https://www.npmjs.com/package/vue-neshan-maps",
+    "documentationUrl": "https://sajadjanat.github.io/vue-neshan-maps/",
+    "author": "Sajad Janat",
+    "tags": [
+      "maps",
+      "neshan",
+      "leaflet",
+      "maplibre",
+      "traffic",
+      "poi",
+      "vue3",
+      "typescript",
+      "nuxt",
+      "iran"
+    ],
+    "type": "community"
   }
 ]
